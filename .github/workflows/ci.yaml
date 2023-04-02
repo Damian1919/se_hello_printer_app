@@ -22,8 +22,6 @@ jobs:
       # LINT!!!
       - name: LINT
         run: make lint
-      - name: docker
-        run: make docker_run
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
