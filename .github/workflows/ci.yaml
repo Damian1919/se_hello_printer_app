@@ -22,3 +22,5 @@ jobs:
       # LINT!!!
       - name: LINT
         run: make lint
+      - name: docker
+        run: make docker_run
